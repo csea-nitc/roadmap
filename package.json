@@ -11,8 +11,7 @@
     "format:check": "prettier --check . --plugin=prettier-plugin-astro",
     "format": "prettier --write . --plugin=prettier-plugin-astro",
     "deploy": "astro build && npx astro deploy",
-    "lint": "eslint .",
-    "postinstall": "sh ./.ci-qnqhn3.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@astrojs/check": "^0.9.3",
